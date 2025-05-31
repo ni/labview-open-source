@@ -25,6 +25,15 @@
 - Added §2.2.3: Education Services integration and contributor certification infrastructure oversight
 - Added §2.2.4: Delegation logic for temporarily held roles and GPT enforcement authority
 
+### 🔧 Clarified Infra Ownership
+
+#### §2025.05.31.3 NI Maintainer Role (Internal)
+- Added §2.5.2 to `ROLES.md` to formalize the NI Maintainer as part of Infra & Automation
+- Clarified that this role is held by the Program Manager and includes:
+  - Merge policy enforcement
+  - Repo settings and branch protection
+  - Manual governance file merges
+
 ### 🧩 Role Assignment Default
 - Documented that all NI roles default to the Program Manager unless delegated
 - Acknowledged current holding of all five roles by Sergio Velderrain pending future delegation
