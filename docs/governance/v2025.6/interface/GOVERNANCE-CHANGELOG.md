@@ -5,6 +5,32 @@
 
 ---
 
+## 📅 2025-05-31 – Role Model Formalization and `ROLES.md` Introduction
+
+### 🆕 New Governance Asset
+
+#### §2025.05.31.1 `ROLES.md`
+- Created `ROLES.md` to define all NI-owned (non-volunteer) roles in the NI Open-Source Program
+- Introduced five formal NI-only roles:
+  - §2.1 Program Architect
+  - §2.2 Program Manager (expanded)
+  - §2.3 Scoring Coordinator
+  - §2.4 Developer Relations Lead
+  - §2.5 Infra & Automation Owner
+
+### 🔁 Structural Clarifications
+
+#### §2025.05.31.2 Program Manager Role Update
+- Added §2.2.2: Explicit cross-functional scope (executives, R&D, PM, Legal)
+- Added §2.2.3: Education Services integration and contributor certification infrastructure oversight
+- Added §2.2.4: Delegation logic for temporarily held roles and GPT enforcement authority
+
+### 🧩 Role Assignment Default
+- Documented that all NI roles default to the Program Manager unless delegated
+- Acknowledged current holding of all five roles by Sergio Velderrain pending future delegation
+
+---
+
 ## 📅 2025-05-22 – Governance Framework Refresh
 
 A comprehensive update across the program’s governance documentation, based on the 2025-05-22 Steering Committee and stakeholder analysis.
