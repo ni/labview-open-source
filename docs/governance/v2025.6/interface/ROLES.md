@@ -80,6 +80,17 @@ This role owns the automation and infrastructure used to track contributor signa
 - Ensure `.md` file structure, metadata, and sectioning follow enforcement rules
 - Support automation scaling across repositories and governance assets
 
+#### §2.5.2 NI Maintainer Function
+
+The Program Manager may serve as an NI-designated Maintainer for program-governed repositories. This includes responsibilities that require elevated repository access and cannot be fulfilled by volunteer maintainers.
+
+Responsibilities include:
+
+- Enforcing merge policies and CI/test gate criteria
+- Managing repo settings, branch protection, and contributor roles
+- Performing manual merges for governance assets (e.g., `*.md` files in `interface/`)
+- Overseeing issue templates, project boards, and contribution workflows
+
 ---
 
 ## §3.0 Role Delegation
