@@ -14,19 +14,16 @@
 
 ---
 
-## 📅 2025-05-31 – Structural Sync for Meeting Policy
+## 📅 2025-05-31 – Naming and Brand Usage Policy Added
 
-**File Updated:** `MEETING-POLICY.md`
+**File Updated:** `PROGRAM-GUIDE.md`
 
-**Change Type:** Format alignment only — no content altered
-
-**Details:**
-- Applied hierarchical numeric structure (`§X.Y.Z`) to all sections
-- Supports future drift detection and governance diffs
-- Matches internal contributor-first meeting model (no policy logic changed)
+- Added §4.3 “Naming and Brand Reference Guidelines”
+- Clarifies when community contributors may use “LabVIEW” or “TestStand” in package names
+- Establishes permissive default with attribution safeguard
 
 **Method:**  
-Manual copy-paste to GitHub from internal structured version
+Prompted by real contributor inquiry (Juan Jose Hasbun Wood)
 
 **Drift Resolution:**  
 Confirmed as aligned with internal source-of-truth after sync recheck
@@ -37,14 +34,11 @@ Confirmed as aligned with internal source-of-truth after sync recheck
 
 **File Updated:** `CONTRIBUTING.md`
 
-**Change Type:** Section renumbering only
-
-**Details:**
 - Applied `§X.Y.Z` numeric identifiers to all content blocks
 - No policy changes — aligned format with internal governance structure
 
 **Method:**  
-Manual commit to GitHub from structured source
+Manual commit to GitHub from structured internal version
 
 **Drift Resolution:**  
 Confirmed as fully aligned post-sync
