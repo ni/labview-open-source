@@ -1,90 +1,96 @@
 # STEERCO-GUIDELINES.md
 
-## §0.0 Revision Format
-
-This document uses structured section numbering (`§X.Y.Z`) to clarify SteerCo roles, expectations, and boundaries for audit and governance tracking.
+> 🧭 This document outlines the roles, responsibilities, and expectations of members serving on a Steering Committee (SteerCo) within the NI Open-Source Program.
 
 ---
 
-## §1.0 Role of the Steering Committee
+## §1. Role of the Steering Committee
 
-### §1.1 Purpose
+SteerCo members:
 
-#### §1.1.1 Provide volunteer leadership and domain expertise  
-#### §1.1.2 Represent real-world usage, integration, and testing of NI open-source IP  
-#### §1.1.3 Offer roadmap guidance, documentation feedback, and community insights  
-#### §1.1.4 Participation is publicly recognized
+### §1.1 Public Representation
+Represent real-world usage, integration, and testing of NI open-source IP
 
-### §1.2 Limitations
+### §1.2 Roadmap Guidance
+Offer guidance on roadmap feasibility, documentation gaps, and community needs
 
-#### §1.2.1 SteerCo members do not vote on repository prioritization or launch  
-#### §1.2.2 Presence increases eligibility via leadership signal (per `PRIORITY-SCORE.md`)
+### §1.3 Public Recognition
+Are recognized publicly for their participation
 
----
-
-## §2.0 Authority and Boundaries
-
-| §2.1 Area | §2.2 SteerCo Role |
-|----------|--------------------|
-| 🧪 Technical Guidance | §2.2.1 Review PRs, define usage, report bugs |
-| 🧭 Evaluation Input | §2.2.2 Assess practicality and interest — not final scoring |
-| 🔀 Community Engagement | §2.2.3 Promote contributions, assist with onboarding |
-| ❌ Governance | §2.2.4 Cannot override program-level rules |
-| ❌ Priority Setting | §2.2.5 Do not assign P0/P1/P2; only influence eligibility |
+> ❗ **SteerCo members do not vote on whether a repository is prioritized or launched.**  
+> Their presence and engagement increase eligibility by signaling strong leadership availability, as defined in [`PRIORITY-SCORE.md`](https://github.com/ni/open-source/blob/main/docs/governance/PRIORITY-SCORE.md).
 
 ---
 
-## §3.0 Participation Expectations
+## §2. SteerCo Authority and Boundaries
 
-| §3.1 Category | §3.2 Details |
-|---------------|-------------|
-| Weekly Time | §3.2.1 ~2 hours/week per repo or category |
-| GitHub Activity | §3.2.2 Reviews, issues, test coordination |
-| Collaboration | §3.2.3 Coordinate with peers, propose improvements |
-| Independence | §3.2.4 Act as individuals, not company reps |
-| Transparency | §3.2.5 Activity must be public and GitHub-visible |
+SteerCo members are *influencers, not approvers*.
 
----
-
-## §4.0 Meeting Policy
-
-| §4.1 Policy | §4.2 Description |
-|-------------|------------------|
-| Cadence | §4.2.1 Alternate biweekly governance/IP-specific meetings |
-| Agendas | §4.2.2 Publish agendas 24 hours in advance, with scoped topics |
-| Separation | §4.2.3 Governance meetings separate from IP cluster discussions |
-| Recording | §4.2.4 Document key decisions in GitHub threads or governance commits |
+| §Ref | Area | SteerCo Role |
+|------|------|---------------|
+| §2.1 | 🧪 Technical Guidance | Review PRs, define usage patterns, surface bugs |
+| §2.2 | 🧭 Evaluation Input | Assess interest and practicality (not final scoring) |
+| §2.3 | 🔀 Community Engagement | Encourage external contributions and recognition |
+| §2.4 | ❌ Governance Decisions | Cannot override program-level policies or make launch determinations |
+| §2.5 | ❌ Priority Setting | Do not assign P0/P1/P2 directly; instead, increase repo readiness by being present and engaged |
 
 ---
 
-## §5.0 Joining or Leaving a SteerCo
+## §3. Participation Expectations
 
-### §5.1 Joining
-
-#### §5.1.1 Fill out the public interest form  
-#### §5.1.2 Be selected based on expertise or contribution history  
-#### §5.1.3 Commit to the 2-hour/week model
-
-### §5.2 Leaving
-
-#### §5.2.1 Notify Program Manager via GitHub or Discord  
-#### §5.2.2 Removal is non-punitive; rejoining is allowed
+| §Ref | Commitment | Details |
+|------|------------|---------|
+| §3.1 | Weekly Time | ~2 hours/week per repo or category |
+| §3.2 | Activity | GitHub reviews, issues, discussion replies, test coordination |
+| §3.3 | Collaboration | Coordinate with other members, propose improvements |
+| §3.4 | Independence | Members contribute as individuals—not company representatives |
+| §3.5 | Transparency | All decisions and leadership must be visible and trackable on GitHub |
 
 ---
 
-## §6.0 Recognition and Impact
+## §4. Meeting Policy
 
-### §6.1 Value of SteerCo Membership
+SteerCo meetings will be structured to protect contributors’ time and maintain momentum.
 
-#### §6.1.1 Confers public recognition (badges, contributor credits — see `CONTRIBUTOR-RECOGNITION.md`)  
-#### §6.1.2 SteerCo is a core signal of repo eligibility  
-#### §6.1.3 Influences NI product decisions through structured visibility
+| §Ref | Policy | Description |
+|------|--------|-------------|
+| §4.1 | 🔄 Cadence | Governance meetings alternate biweekly with IP-specific meetings |
+| §4.2 | 📝 Agendas | Agendas must be published 24 hours in advance and clearly scoped |
+| §4.3 | ✂️ Separation | IP-focused meetings are scoped to a single repo or technical cluster; governance meetings address scoring, process, and program design |
+| §4.4 | 📎 Recording | Key decisions must be documented in public GitHub threads or governance commits |
 
 ---
 
-## §7.0 Revision History
+## §5. Joining or Leaving a SteerCo
 
-| §7.1 Date | §7.2 Summary |
-|-----------|--------------|
-| §7.1.1 2025-05-22 | §7.2.1 Added meeting structure, clarified boundaries |
-| §7.1.2 2025-04-XX | §7.2.2 Initial version |
+To join a SteerCo:
+- Fill out the public interest form
+- Be selected based on relevance, expertise, or contribution history
+- Commit to a 2-hour/week engagement model
+
+To step down:
+- Notify the Program Manager via GitHub or Discord
+- Removal is non-punitive—members may return when ready
+
+---
+
+## §6. Recognition and Impact
+
+### §6.1 Contributor Recognition
+Confers public recognition (badges and contributor credits are planned—see `CONTRIBUTOR-RECOGNITION.md`)
+
+### §6.2 Priority Signal
+Is a core signal of priority eligibility for the NI Open-Source Program
+
+### §6.3 Product Influence
+Can influence NI product decisions—but only through structured and transparent engagement
+
+---
+
+## §7. Revision History
+
+| Date       | Summary                                      |
+|------------|----------------------------------------------|
+| 2025-05-31 | Numbered all lists, table rows, and impact statements |
+| 2025-05-22 | Added meeting structure, clarified role boundaries |
+| 2025-04-XX | Initial version                              |
