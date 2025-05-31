@@ -41,13 +41,13 @@ Tracking events are not votes or approvals; they are markers used by the Program
 
 ### §1.2.4 Examples of Valid Tracking Events
 
-| §Ref | Type | Description | Where It Appears |
+|  | Type | Description | Where It Appears |
 |------|------|-------------|------------------|
-| §1.2.4.1 | **SteerCo Formation** | At least two confirmed participants begin 2hr/week GitHub engagement | GitHub Discussions, Issues, `STEERCO-GUIDELINES.md` updates |
-| §1.2.4.2 | **Discussion Kickoff** | A GitHub Discussion scopes a new technical or governance topic | `open-source/discussions` or repo-specific discussions |
-| §1.2.4.3 | **Issue Conversion** | A scoped GitHub Issue is created from a discussion, including acceptance criteria | Linked Issues with `enhancement`, `roadmap`, or `governance` labels |
-| §1.2.4.4 | **Manual Test Result** | Contributor posts a structured test outcome with traceable metadata | GitHub Issue using `Test Result` template |
-| §1.2.4.5 | **Changelog Entry** | A formal change is logged in `GOVERNANCE-CHANGELOG.md` | Markdown commit or published PR |
+|  | **SteerCo Formation** | At least two confirmed participants begin 2hr/week GitHub engagement | GitHub Discussions, Issues, `STEERCO-GUIDELINES.md` updates |
+|  | **Discussion Kickoff** | A GitHub Discussion scopes a new technical or governance topic | `open-source/discussions` or repo-specific discussions |
+|  | **Issue Conversion** | A scoped GitHub Issue is created from a discussion, including acceptance criteria | Linked Issues with `enhancement`, `roadmap`, or `governance` labels |
+|  | **Manual Test Result** | Contributor posts a structured test outcome with traceable metadata | GitHub Issue using `Test Result` template |
+|  | **Changelog Entry** | A formal change is logged in `GOVERNANCE-CHANGELOG.md` | Markdown commit or published PR |
 
 ---
 
