@@ -4,7 +4,7 @@ Tracks modifications to the NI Governance Sync Engine assistant logic.
 
 ---
 
-## 📅 2025-05-31 – Profile Finalization
+## 📅 2025-05-31 – Prodile Finalization
 
 - Locked prompt starter set to 12
 - Enabled audit queue tracking via `queue.json`
