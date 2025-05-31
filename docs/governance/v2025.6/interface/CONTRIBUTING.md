@@ -1,72 +1,73 @@
-# CONTRIBUTING.md
+# CONTRIBUTING.md – NI Open-Source Program
 
-## §0.0 Revision Format
-
-This document applies a hierarchical numeric structure (`§X.Y.Z`) to all contribution methods, policies, and expectations for precision tracking and governance validation.
+This document explains how to contribute to a GitHub repository governed by NI’s Open-Source Program.
 
 ---
 
-## §1.0 Ways to Contribute
+## §1. Ways to Contribute
 
 ### §1.1 Join a Steering Committee (SteerCo)
+- Commit ~2 hours/week
+- Help size, review, and validate issues
+- Shape roadmap and governance
 
-#### §1.1.1 Commit ~2 hours/week  
-#### §1.1.2 Help size, review, and validate issues  
-#### §1.1.3 Shape roadmap and governance  
-#### §1.1.4 Apply via public interest form  
-#### §1.1.5 [Apply here](https://www.linkedin.com/feed/update/urn:li:activity:7328255573638950923/)
+[Apply here](https://www.linkedin.com/feed/update/urn:li:activity:7328255573638950923/)
 
 ### §1.2 Claim and Complete Issues
-
-#### §1.2.1 Look for issues labeled `size/S`, `size/M`, or `size/L`  
-#### §1.2.2 Comment to request assignment  
-#### §1.2.3 Submit a PR referencing the issue
-
----
-
-## §2.0 Recertification
-
-### §2.1 Eligibility Requirements
-
-#### §2.1.1 Applies only to repos governed by the NI Open-Source Program  
-#### §2.1.2 Contribution must relate to an approved and sized issue  
-#### §2.1.3 Metadata must be traceable (label, commit, PR reference)  
-#### §2.1.4 PR must be merged
+- Look for `size/S`, `size/M`, or `size/L` labeled issues
+- Comment to request assignment
+- Submit a PR referencing the issue
 
 ---
 
-## §3.0 PR Guidelines
+## §2. Recertification
 
-### §3.1 Submission Requirements
+### §2.1 Repo Eligibility
+Only repos [actively governed by the program](https://github.com/topics/ni-open-source)
 
-#### §3.1.1 Reference the associated issue  
-#### §3.1.2 Provide test evidence or screenshot if needed  
-#### §3.1.3 Tag a maintainer or SteerCo reviewer
+### §2.2 Issue Scope
+Only for issues approved and sized by SteerCo
 
----
+### §2.3 Metadata Requirements
+Metadata must be traceable
 
-## §4.0 Contributor Expectations
-
-### §4.1 Collaboration Norms
-
-#### §4.1.1 Practice respectful collaboration  
-#### §4.1.2 Operate with an async-first mindset  
-#### §4.1.3 Participation is private by default unless otherwise opted-in
+### §2.4 Merge Criteria
+PR must be merged
 
 ---
 
-## §5.0 Recognition
+## §3. PR Guidelines
 
-### §5.1 Visibility
+### §3.1 Reference the Issue
+- Include the original GitHub issue
 
-#### §5.1.1 Public credit is opt-in  
-#### §5.1.2 Contributors may choose what is shared
+### §3.2 Provide Proof
+- Add test or screenshot evidence if needed
+
+### §3.3 Tag a Reviewer
+- Mention a maintainer or SteerCo reviewer
 
 ---
 
-## §6.0 Questions & Support
+## §4. Contributor Expectations
 
-### §6.1 How to Get Help
+### §4.1 Collaboration
+Respectful collaboration
 
-#### §6.1.1 Use GitHub Discussions on governed repos  
-#### §6.1.2 Or join the program Discord: [discord.gg/q4d3ggrFVA](https://discord.gg/q4d3ggrFVA)
+### §4.2 Async Workflow
+Async-first mindset
+
+### §4.3 Privacy
+Participation is private by default
+
+---
+
+## §5. Recognition
+
+Public credit is opt-in. You choose what’s shared.
+
+---
+
+## §6. Questions?
+
+Use GitHub Discussions from **[Repos Governed By The Program](https://github.com/topics/ni-open-source)** or [join our Discord](https://discord.gg/q4d3ggrFVA) to connect.
