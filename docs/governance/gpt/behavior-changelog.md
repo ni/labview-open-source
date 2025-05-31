@@ -14,4 +14,14 @@ Tracks modifications to the NI Governance Sync Engine assistant logic.
 
 ---
 
+## 📅 2025-05-31 – Cleared Logged Edits from Queue
+
+- Confirmed changelog entries for:
+  - PROGRAM-GUIDE.md – §4.3 Naming and Brand Reference Guidelines
+  - CONTRIBUTING.md – Structured format alignment
+- Removed both from `queue.json` and `pending-entries.md`
+- Queue reset to zero
+
+---
+
 ## 📅 2025-05-22 – Initial Governance Sync Engine logic defined
