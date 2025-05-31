@@ -1,76 +1,94 @@
 # ENGAGEMENT-GUIDE.md
 
-> 💬 This guide outlines how contributors to the NI Open-Source Program should engage via GitHub. It defines how to report issues, propose changes, participate in discussions, and track contributions in a way that aligns with the program’s governance and scoring model.
+## §0.0 Revision Format
 
-## §1. General Engagement Philosophy
+All contributor engagement rules are now formatted with structured numeric sections (`§X.Y.Z`) to support traceable participation, recognition, and scoring models.
 
-The NI Open-Source Program is designed to:
-- Empower contributors to take initiative
-- Minimize approval bottlenecks
-- Encourage clarity and structure without rigidity
+---
 
-Contributions are tracked directly via GitHub and recognized via badges, SteerCo membership, or certification points. All engagement should be public and auditable.
+## §1.0 General Engagement Philosophy
 
-## §2. Where to Post
+### §1.1 Design Goals
 
-| Use Case | Use This | Notes |
-|----------|----------|-------|
-| ❗ Report a bug or technical issue | **GitHub Issue** | Must be actionable, reproducible, and scoped. |
-| 💡 Propose a new feature or improvement | **GitHub Issue** | Clearly describe the need and potential impact. |
-| 🧪 Report results of a manual test | **GitHub Issue** | Include environment, expected outcome, and pass/fail status. |
-| ❓ Ask a general question or raise uncertainty | **GitHub Discussion** | Use for exploratory topics or unclear boundaries. |
-| 🔁 Propose a PR | **GitHub Pull Request** | Include issue reference and testing details. |
-| 🗣️ Share long-term ideas or meta-program suggestions | **Program Discussion Thread** | Use `open-source/discussions` repo. |
+#### §1.1.1 Empower contributors to take initiative  
+#### §1.1.2 Minimize approval bottlenecks  
+#### §1.1.3 Encourage clarity and structure without rigidity  
+#### §1.1.4 Track contributions via GitHub  
+#### §1.1.5 Recognize impact via badges, SteerCo invites, and certification  
+#### §1.1.6 Require public and auditable engagement
 
-### §2.1 Discord Channel Structure
+---
 
-The NI Open-Source Discord server is publicly accessible to anyone interested in contributing, discussing, or learning about the program. However, some channels are intentionally private to support effective program operations.
+## §2.0 Where to Post
 
-| Channel Type | Visibility | Purpose |
-|--------------|------------|---------|
-| 🌐 Public Channels | Open to anyone with the invite link | General questions, contributor engagement, community announcements |
-| 🔒 SteerCo Channels | Restricted to the Program Manager, select NI R&D liaisons, and active SteerCo members | Used to coordinate repo-specific decisions, organize testing, and streamline interaction with internal NI stakeholders |
-| 🧑‍💻 Internal Liaison Channels | Viewable only by the Program Manager and NI liaisons | Used to coordinate internal alignment and technical readiness checks |
+| §2.1 Use Case | §2.2 Recommended Channel | §2.3 Notes |
+|----------------|---------------------------|------------|
+| Report a bug or issue | §2.2.1 GitHub Issue | §2.3.1 Actionable, scoped, reproducible |
+| Propose a feature | §2.2.2 GitHub Issue | §2.3.2 Label as `enhancement`, include use case |
+| Report manual test results | §2.2.3 GitHub Issue | §2.3.3 Use `Test Result` template if available |
+| Ask questions or explore ideas | §2.2.4 GitHub Discussion | §2.3.4 Use for open-ended or uncertain topics |
+| Submit a change | §2.2.5 GitHub Pull Request | §2.3.5 Include “why,” “how,” and test proof |
+| Propose long-term or meta changes | §2.2.6 `open-source/discussions` repo | §2.3.6 Use for program-level ideas |
 
-All private spaces are **moderated directly by the Program Manager (Sergio Velderrain)** to ensure alignment with governance principles and prevent off-record decision-making.
+---
 
-> 🛑 *All governance-affecting decisions must still be documented in public GitHub issues or governance commits, even if discussed in private Discord threads.*
+## §3.0 Contributor Best Practices
 
-This structure ensures broad community access while enabling scoped, efficient collaboration with contributors serving in leadership roles.
+### §3.1 Issue and PR Hygiene
 
-## §3. Contributor Best Practices
+#### §3.1.1 Use standard labels (`bug`, `enhancement`, `test result`, `documentation`)  
+#### §3.1.2 Cross-reference related issues (`Fixes #123`, `Related to #456`)  
+#### §3.1.3 Use specific and descriptive titles
 
-- Keep titles specific and meaningful
-- Reference relevant issues using GitHub cross-linking
-- Include full context for test results or technical suggestions
-- Communicate asynchronously whenever possible
+### §3.2 Test Reports
 
-## §4. Manual Testing and Structured Test Reports
+#### §3.2.1 Include the following in manual test submissions:  
+- §3.2.1.1 Test ID (if applicable)  
+- §3.2.1.2 Platform/Version  
+- §3.2.1.3 Expected vs. Actual behavior  
+- §3.2.1.4 Outcome (Pass/Fail/Blocked)
 
-To improve the reliability of open-source IP, the program uses GitHub Issues to track manual testing by volunteers.
+---
 
-When submitting a test report:
-- Provide platform/version details
-- Describe expected and actual behavior
-- State test outcome clearly (pass/fail/blocked)
-- Reference linked issues or milestones if applicable
+## §4.0 Manual Testing and Test Reporting
 
-## §5. Engagement and Recognition
+### §4.1 Submission Requirements
 
-Consistent GitHub activity is the **main signal** used to award:
-- Badges (see `CONTRIBUTOR-RECOGNITION.md`)
-- SteerCo invitations
-- Certification points (for eligible LabVIEW contributors)
+#### §4.1.1 Use `Test Result` template if available  
+#### §4.1.2 Clarify whether test was exploratory or targeting known bug  
+#### §4.1.3 Tag `test-coordinator` if applicable  
+#### §4.1.4 Link report to milestone or GitHub Project board when relevant
 
-## §6. Reporting Inappropriate Use or Abuse
+---
 
-If you experience harassment, inappropriate conduct, or off-topic behavior:
-- Use GitHub’s reporting tools or email `sergio.velderrain@emerson.com`
-- All contributors are expected to follow the [Open Source Community Code Of Conduct] (In progress)
+## §5.0 Engagement and Recognition
 
-## §7. Revision History
+### §5.1 GitHub as Signal Source
 
-| Date       | Summary                              |
-|------------|--------------------------------------|
-| 2025-05-31 | Added §2.1 defining Discord channel structure and access roles |
-| 2025-05-22 | Initial version based on contributor workflow analysis |
+#### §5.1.1 Contributor activity drives:  
+- §5.1.1.1 Badge eligibility (see `CONTRIBUTOR-RECOGNITION.md`)  
+- §5.1.1.2 SteerCo invitations  
+- §5.1.1.3 Certification point accumulation (for LabVIEW contributors)
+
+#### §5.1.2 Public GitHub engagement allows NI leadership to prioritize based on ecosystem demand
+
+---
+
+## §6.0 Reporting Inappropriate Behavior
+
+### §6.1 Abuse Response
+
+#### §6.1.1 Use GitHub’s built-in reporting tools  
+#### §6.1.2 Or contact: `sergio.velderrain@emerson.com`
+
+### §6.2 Code of Conduct
+
+#### §6.2.1 All participants must follow the [Open Source Community Code of Conduct] *(In progress)*
+
+---
+
+## §7.0 Revision History
+
+| §7.1 Date | §7.2 Summary |
+|-----------|--------------|
+| §7.1.1 2025-05-22 | §7.2.1 Initial version based on contributor workflow analysis |
