@@ -1,94 +1,147 @@
 # ENGAGEMENT-GUIDE.md
 
-## §0.0 Revision Format
-
-All contributor engagement rules are now formatted with structured numeric sections (`§X.Y.Z`) to support traceable participation, recognition, and scoring models.
+> 💬 This guide outlines how contributors to the NI Open-Source Program should engage via GitHub. It defines how to report issues, propose changes, participate in discussions, and track contributions in a way that aligns with the program’s governance and scoring model.
 
 ---
 
-## §1.0 General Engagement Philosophy
+## §1. General Engagement Philosophy
 
-### §1.1 Design Goals
+The NI Open-Source Program is designed to:
 
-#### §1.1.1 Empower contributors to take initiative  
-#### §1.1.2 Minimize approval bottlenecks  
-#### §1.1.3 Encourage clarity and structure without rigidity  
-#### §1.1.4 Track contributions via GitHub  
-#### §1.1.5 Recognize impact via badges, SteerCo invites, and certification  
-#### §1.1.6 Require public and auditable engagement
+### §1.1.1 Empower Contributors
+Empower contributors to take initiative
 
----
+### §1.1.2 Avoid Bottlenecks
+Minimize approval bottlenecks
 
-## §2.0 Where to Post
+### §1.1.3 Encourage Lightweight Structure
+Encourage clarity and structure without rigidity
 
-| §2.1 Use Case | §2.2 Recommended Channel | §2.3 Notes |
-|----------------|---------------------------|------------|
-| Report a bug or issue | §2.2.1 GitHub Issue | §2.3.1 Actionable, scoped, reproducible |
-| Propose a feature | §2.2.2 GitHub Issue | §2.3.2 Label as `enhancement`, include use case |
-| Report manual test results | §2.2.3 GitHub Issue | §2.3.3 Use `Test Result` template if available |
-| Ask questions or explore ideas | §2.2.4 GitHub Discussion | §2.3.4 Use for open-ended or uncertain topics |
-| Submit a change | §2.2.5 GitHub Pull Request | §2.3.5 Include “why,” “how,” and test proof |
-| Propose long-term or meta changes | §2.2.6 `open-source/discussions` repo | §2.3.6 Use for program-level ideas |
+### §1.1.4 Track Public Engagement
+Contributions are tracked directly via GitHub and recognized via badges, SteerCo membership, or certification points. All engagement should be public and auditable.
 
 ---
 
-## §3.0 Contributor Best Practices
+## §1.2 Tracking Event Definition
 
-### §3.1 Issue and PR Hygiene
+📍 **Tracking Event**
 
-#### §3.1.1 Use standard labels (`bug`, `enhancement`, `test result`, `documentation`)  
-#### §3.1.2 Cross-reference related issues (`Fixes #123`, `Related to #456`)  
-#### §3.1.3 Use specific and descriptive titles
+A **tracking event** is a publicly visible action or decision that marks progress in the governance lifecycle of an NI open-source repository. Tracking events are used to:
 
-### §3.2 Test Reports
+### §1.2.1 Signal Contributor Engagement
+Signal contributor engagement or repo readiness
 
-#### §3.2.1 Include the following in manual test submissions:  
-- §3.2.1.1 Test ID (if applicable)  
-- §3.2.1.2 Platform/Version  
-- §3.2.1.3 Expected vs. Actual behavior  
-- §3.2.1.4 Outcome (Pass/Fail/Blocked)
+### §1.2.2 Anchor Governance Artifacts
+Anchor discussions, scoring, and evaluation processes to GitHub-visible artifacts
 
----
+### §1.2.3 Enable Traceability
+Ensure transparency and traceability in how program resources are allocated
 
-## §4.0 Manual Testing and Test Reporting
+Tracking events are not votes or approvals; they are markers used by the Program Manager and SteerCo to observe momentum and alignment with program goals.
 
-### §4.1 Submission Requirements
+### §1.2.4 Examples of Valid Tracking Events
 
-#### §4.1.1 Use `Test Result` template if available  
-#### §4.1.2 Clarify whether test was exploratory or targeting known bug  
-#### §4.1.3 Tag `test-coordinator` if applicable  
-#### §4.1.4 Link report to milestone or GitHub Project board when relevant
-
----
-
-## §5.0 Engagement and Recognition
-
-### §5.1 GitHub as Signal Source
-
-#### §5.1.1 Contributor activity drives:  
-- §5.1.1.1 Badge eligibility (see `CONTRIBUTOR-RECOGNITION.md`)  
-- §5.1.1.2 SteerCo invitations  
-- §5.1.1.3 Certification point accumulation (for LabVIEW contributors)
-
-#### §5.1.2 Public GitHub engagement allows NI leadership to prioritize based on ecosystem demand
+| §Ref | Type | Description | Where It Appears |
+|------|------|-------------|------------------|
+| §1.2.4.1 | **SteerCo Formation** | At least two confirmed participants begin 2hr/week GitHub engagement | GitHub Discussions, Issues, `STEERCO-GUIDELINES.md` updates |
+| §1.2.4.2 | **Discussion Kickoff** | A GitHub Discussion scopes a new technical or governance topic | `open-source/discussions` or repo-specific discussions |
+| §1.2.4.3 | **Issue Conversion** | A scoped GitHub Issue is created from a discussion, including acceptance criteria | Linked Issues with `enhancement`, `roadmap`, or `governance` labels |
+| §1.2.4.4 | **Manual Test Result** | Contributor posts a structured test outcome with traceable metadata | GitHub Issue using `Test Result` template |
+| §1.2.4.5 | **Changelog Entry** | A formal change is logged in `GOVERNANCE-CHANGELOG.md` | Markdown commit or published PR |
 
 ---
 
-## §6.0 Reporting Inappropriate Behavior
+## §2. Where to Post
 
-### §6.1 Abuse Response
-
-#### §6.1.1 Use GitHub’s built-in reporting tools  
-#### §6.1.2 Or contact: `sergio.velderrain@emerson.com`
-
-### §6.2 Code of Conduct
-
-#### §6.2.1 All participants must follow the [Open Source Community Code of Conduct] *(In progress)*
+| Use Case | Use This | Notes |
+|----------|----------|-------|
+| ❗ Report a bug or technical issue | **GitHub Issue** | Must be actionable, reproducible, and scoped. |
+| 💡 Propose a new feature or improvement | **GitHub Issue** | Clearly label as `enhancement`. Include use case. |
+| 🧪 Report results of a manual test | **GitHub Issue** | Use the `Test Result` template if available. |
+| ❓ Ask a general question or raise uncertainty | **GitHub Discussion** | For open-ended input, community dialogue. |
+| 🔁 Propose a PR | **GitHub Pull Request** | Include context: why, how, and how it was tested. |
+| 🗣️ Share long-term ideas or meta-program suggestions | **Program Discussion Thread** | Use `open-source/discussions` repo. |
 
 ---
 
-## §7.0 Revision History
+## §3. Contributor Best Practices
 
-| §7.1 Date | §7.2 Summary |
-|-----------|--------------|
-| §7.1.1 2025-05-22 | §7.2.1 Initial version based on contributor workflow analysis |
+### §3.1 Use Labels
+Always use labels (e.g., `bug`, `enhancement`, `test result`, `documentation`)
+
+### §3.2 Reference Related Issues
+Reference related issues in PRs using `Fixes #123` or `Related to #456`
+
+### §3.3 Use Specific Titles
+Keep titles specific and meaningful
+
+### §3.4 Include Metadata in Test Reports
+For test reports, include:
+
+#### §3.4.1 Test ID
+**Test ID** (if defined)
+
+#### §3.4.2 Platform
+**Platform/Version**
+
+#### §3.4.3 Behavior Summary
+**Expected vs. Actual Behavior**
+
+#### §3.4.4 Outcome
+**Outcome** (Pass/Fail/Blocked)
+
+---
+
+## §4. Manual Testing and Structured Test Reports
+
+To improve the reliability of open-source IP, the program uses GitHub Issues to track manual testing by volunteers.
+
+### §4.1 How to Submit a Test Report
+
+When submitting a test report:
+
+#### §4.1.1 Use the Template
+Use the `Test Result` issue template if available
+
+#### §4.1.2 Indicate Test Type
+Be clear if the test was exploratory or for a known bug
+
+#### §4.1.3 Notify Coordinator
+Tag `test-coordinator` if assigned
+
+#### §4.1.4 Link to Context
+Link to the relevant milestone or GitHub Project board if applicable
+
+---
+
+## §5. Engagement and Recognition
+
+### §5.1 Award Signals
+Consistent GitHub activity is the **main signal** used to award:
+- Badges (see `CONTRIBUTOR-RECOGNITION.md`)
+- SteerCo invitations
+- Certification points (for eligible LabVIEW contributors)
+
+### §5.2 Prioritization Link
+Visible GitHub contributions help the Program Manager and NI leadership prioritize effort and evaluate interest across the ecosystem. These contributions also serve as tracking events for future prioritization.
+
+---
+
+## §6. Reporting Inappropriate Use or Abuse
+
+If you experience harassment, inappropriate conduct, or off-topic behavior:
+
+### §6.1 Use GitHub Tools
+Use GitHub’s reporting tools or email `sergio.velderrain@emerson.com`
+
+### §6.2 Follow Code of Conduct
+All contributors are expected to follow the [Open Source Community Code Of Conduct] (In progress)
+
+---
+
+## §7. Revision History
+
+| Date       | Summary                              |
+|------------|--------------------------------------|
+| 2025-05-31 | Replaced “governance milestone” with “tracking event”; added term definition |
+| 2025-05-22 | Initial version based on contributor workflow analysis |
