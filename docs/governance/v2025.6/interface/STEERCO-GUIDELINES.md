@@ -1,72 +1,105 @@
-# STEERCO-GUIDELINES.md
+# PRIORITY-SCORE.md
 
-> 🧭 This document outlines the roles, responsibilities, and expectations of members serving on a Steering Committee (SteerCo) within the NI Open-Source Program.
+## §0.0 Revision Format
 
-## §1. Role of the Steering Committee
+All policy content is now organized using structured numeric sections (`§X.Y.Z`) to support traceable scoring logic and governance comparisons.
 
-The SteerCo exists to provide **volunteer leadership and domain expertise** for a specific repository or technical category. SteerCo members:
+---
 
-- Represent real-world usage, integration, and testing of NI open-source IP
-- Offer guidance on roadmap feasibility, documentation gaps, and community needs
-- Are recognized publicly for their participation
+## §1.0 Definition of Priority
 
-> ❗ **SteerCo members do not vote on whether a repository is prioritized or launched.**  
-> Their presence and engagement increase eligibility by signaling strong leadership availability, as defined in `PRIORITY-SCORE.md`.
+### §1.1 What “Priority” Means
 
-## §2. SteerCo Authority and Boundaries
+#### §1.1.1 Reflects the amount of structured effort NI commits to a repository per evaluation cycle  
+#### §1.1.2 Not a vote, nor set by an individual  
+#### §1.1.3 Determined by:  
+- §1.1.3.1 Measurable community interest  
+- §1.1.3.2 Available SteerCo leadership  
+- §1.1.3.3 Internal resource alignment  
+- §1.1.3.4 Objective scoring across defined criteria
 
-SteerCo members are *influencers, not approvers*.
+### §1.2 Precondition
 
-| Area | SteerCo Role |
-|------|---------------|
-| 🧪 Technical Guidance | Review PRs, define usage patterns, surface bugs |
-| 🧭 Evaluation Input | Assess interest and practicality (not final scoring) |
-| 🔀 Community Engagement | Encourage external contributions and recognition |
-| ❌ Governance Decisions | Cannot override program-level policies or make launch determinations |
-| ❌ Priority Setting | Do not assign P0/P1/P2 directly; instead, increase repo readiness by being present and engaged |
+#### §1.2.1 A repo cannot be prioritized until a Steering Committee is formed  
+#### §1.2.2 SteerCo headcount is the gating requirement for evaluation
 
-## §3. Participation Expectations
+---
 
-| Commitment | Details |
-|------------|---------|
-| Weekly Time | ~2 hours/week per repo or category |
-| Activity | GitHub reviews, issues, discussion replies, test coordination |
-| Collaboration | Coordinate with other members, propose improvements |
-| Independence | Members contribute as individuals—not company representatives |
-| Transparency | All decisions and leadership must be visible and trackable on GitHub |
+## §2.0 Scoring Model Overview
 
-## §4. Meeting Policy
+### §2.1 Scoring Process
 
-SteerCo meetings will be structured to protect contributors’ time and maintain momentum.
+#### §2.1.1 Four factors are evaluated independently  
+#### §2.1.2 Final decisions made jointly by Program Manager and NI leadership
 
-| Policy | Description |
-|--------|-------------|
-| 🔄 Cadence | Governance meetings alternate biweekly with IP-specific meetings |
-| 📝 Agendas | Agendas must be published 24 hours in advance and clearly scoped |
-| ✂️ Separation | IP-focused meetings are scoped to a single repo or technical cluster; governance meetings address scoring, process, and program design |
-| 📎 Recording | Key decisions must be documented in public GitHub threads or governance commits |
+### §2.2 Criteria Table
 
-## §5. Joining or Leaving a SteerCo
+| §2.2.1 Criterion | §2.2.2 Owner(s) | §2.2.3 Description |
+|------------------|------------------|---------------------|
+| **Practicality** | §2.2.2.1 NI R&D | §2.2.3.1 Technical readiness: licensing, testability, docs |
+| **Market Breadth** | §2.2.2.2 Product Management | §2.2.3.2 Applicability across NI’s audience |
+| **Value** | §2.2.2.3 Product Management (with user input) | §2.2.3.3 Strategic importance based on user needs |
+| **Interest** | §2.2.2.4 Community | §2.2.3.4 Contributor activity and SteerCo formation |
 
-To join a SteerCo:
-- Fill out the public interest form
-- Be selected based on relevance, expertise, or contribution history
-- Commit to a 2-hour/week engagement model
+---
 
-To step down:
-- Notify the Program Manager via GitHub or Discord
-- Removal is non-punitive—members may return when ready
+## §3.0 Drivers of High Score
 
-## §6. Recognition and Impact
+### §3.1 Strong Signal Examples
 
-SteerCo membership:
-- Confers public recognition (badges and contributor credits are planned—see `CONTRIBUTOR-RECOGNITION.md`)
-- Is a core signal of priority eligibility for the NI Open-Source Program
-- Can influence NI product decisions—but only through structured and transparent engagement
+| §3.1.1 Score Factor | §3.1.2 Strong Signals |
+|---------------------|------------------------|
+| **Practicality** | §3.1.2.1 No private IP, public test harness, sufficient docs |
+| **Market Breadth** | §3.1.2.2 Broad use cases (e.g., Modbus, gRPC) |
+| **Value** | §3.1.2.3 Business-aligned: onboarding, cross-platform, deploy time |
+| **Interest** | §3.1.2.4 Active issues, external PRs, volunteer SteerCo members |
 
-## §7. Revision History
+---
 
-| Date       | Summary                                      |
-|------------|----------------------------------------------|
-| 2025-05-22 | Added meeting structure, clarified role boundaries |
-| 2025-04-XX | Initial version                              |
+## §4.0 Score Ownership and Interpretation
+
+### §4.1 Decision Structure
+
+#### §4.1.1 Scoring is not a vote and not fixed numerically  
+#### §4.1.2 Based on:  
+- §4.1.2.1 Domain owner input  
+- §4.1.2.2 Observed contributor metrics  
+- §4.1.2.3 Program Manager discretion
+
+### §4.2 Priority Tiers
+
+| §4.2.1 Tier | §4.2.2 Definition |
+|------------|-------------------|
+| **P0** | §4.2.2.1 Maximum investment: strong leadership + business urgency |
+| **P1** | §4.2.2.2 Solid candidate: resource-conditional evolution |
+| **P2** | §4.2.2.3 Community-maintained: no active NI resource allocation |
+
+---
+
+## §5.0 Acceptable Ways to Increase Priority
+
+### §5.1 Gating Methods
+
+#### §5.1.1 Recruit public SteerCo leadership  
+#### §5.1.2 Demonstrate practical readiness (e.g., passing tests, release candidate)  
+#### §5.1.3 Show growing community interest (PRs, issue activity)  
+#### §5.1.4 Provide product demand input via Product Management
+
+---
+
+## §6.0 Out-of-Scope
+
+### §6.1 Clarified Boundaries
+
+#### §6.1.1 Does not assign project ownership  
+#### §6.1.2 Does not define contributor roles (see `STEERCO-GUIDELINES.md`)  
+#### §6.1.3 Does not imply launch — priority ≠ release
+
+---
+
+## §7.0 Revision History
+
+| §7.1 Date | §7.2 Summary |
+|-----------|--------------|
+| §7.1.1 2025-05-22 | §7.2.1 Added 4-factor scoring model and ownership |
+| §7.1.2 2025-04-XX | §7.2.2 Initial version |
