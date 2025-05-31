@@ -1,105 +1,109 @@
 # PRIORITY-SCORE.md
 
-## §0.0 Revision Format
-
-All policy content is now organized using structured numeric sections (`§X.Y.Z`) to support traceable scoring logic and governance comparisons.
-
----
-
-## §1.0 Definition of Priority
-
-### §1.1 What “Priority” Means
-
-#### §1.1.1 Reflects the amount of structured effort NI commits to a repository per evaluation cycle  
-#### §1.1.2 Not a vote, nor set by an individual  
-#### §1.1.3 Determined by:  
-- §1.1.3.1 Measurable community interest  
-- §1.1.3.2 Available SteerCo leadership  
-- §1.1.3.3 Internal resource alignment  
-- §1.1.3.4 Objective scoring across defined criteria
-
-### §1.2 Precondition
-
-#### §1.2.1 A repo cannot be prioritized until a Steering Committee is formed  
-#### §1.2.2 SteerCo headcount is the gating requirement for evaluation
+> 🛑 **This document defines how NI evaluates and allocates limited R&D effort across eligible open-source repositories.**  
+> It is intended for use by NI leadership, the Program Manager, and Steering Committee members to ensure transparency, fairness, and community influence in decision-making.
 
 ---
 
-## §2.0 Scoring Model Overview
+## §1. What “Priority” Means
 
-### §2.1 Scoring Process
+Priority in the NI Open-Source Program reflects **how much structured effort NI commits** to an open-source repository in a given evaluation cycle.  
+It is **not a vote**, nor is it set by an individual—it is the result of:
 
-#### §2.1.1 Four factors are evaluated independently  
-#### §2.1.2 Final decisions made jointly by Program Manager and NI leadership
+### §1.1 Community Interest
+Measurable community interest
 
-### §2.2 Criteria Table
+### §1.2 Technical Leadership
+Available technical leadership (SteerCo)
 
-| §2.2.1 Criterion | §2.2.2 Owner(s) | §2.2.3 Description |
-|------------------|------------------|---------------------|
-| **Practicality** | §2.2.2.1 NI R&D | §2.2.3.1 Technical readiness: licensing, testability, docs |
-| **Market Breadth** | §2.2.2.2 Product Management | §2.2.3.2 Applicability across NI’s audience |
-| **Value** | §2.2.2.3 Product Management (with user input) | §2.2.3.3 Strategic importance based on user needs |
-| **Interest** | §2.2.2.4 Community | §2.2.3.4 Contributor activity and SteerCo formation |
+### §1.3 Resource Alignment
+Internal resource alignment
 
----
+### §1.4 Objective Scoring
+Objective scoring across defined criteria
 
-## §3.0 Drivers of High Score
-
-### §3.1 Strong Signal Examples
-
-| §3.1.1 Score Factor | §3.1.2 Strong Signals |
-|---------------------|------------------------|
-| **Practicality** | §3.1.2.1 No private IP, public test harness, sufficient docs |
-| **Market Breadth** | §3.1.2.2 Broad use cases (e.g., Modbus, gRPC) |
-| **Value** | §3.1.2.3 Business-aligned: onboarding, cross-platform, deploy time |
-| **Interest** | §3.1.2.4 Active issues, external PRs, volunteer SteerCo members |
+> ❗ **Note:** A repository cannot be prioritized until a Steering Committee is formed. SteerCo headcount is the gating requirement for priority evaluation.
 
 ---
 
-## §4.0 Score Ownership and Interpretation
+## §2. Scoring Model Overview
 
-### §4.1 Decision Structure
+The program uses a **4-factor scoring model** to evaluate whether an open-source repo is a good candidate for investment.  
+Each factor is assessed independently, then considered together by the Program Manager and NI leadership.
 
-#### §4.1.1 Scoring is not a vote and not fixed numerically  
-#### §4.1.2 Based on:  
-- §4.1.2.1 Domain owner input  
-- §4.1.2.2 Observed contributor metrics  
-- §4.1.2.3 Program Manager discretion
+| §Ref | Criterion        | Owner(s)             | Description |
+|------|------------------|----------------------|-------------|
+| §2.1 | **Practicality** | NI R&D               | Technical readiness of the codebase. Includes licensing, internal dependencies, documentation, and testability without NI-internal tools. |
+| §2.2 | **Market Breadth** | Product Management | Breadth of applicability across NI’s audience. Considers whether the repo serves a general or niche use case. |
+| §2.3 | **Value**        | Product Management (with user input) | Strategic importance to NI and its users. Informed by customer needs, partner input, and internal roadmap alignment. |
+| §2.4 | **Interest**     | Community (required) | Number and quality of contributors expressing leadership interest. Measured through GitHub activity and SteerCo formation. |
 
-### §4.2 Priority Tiers
-
-| §4.2.1 Tier | §4.2.2 Definition |
-|------------|-------------------|
-| **P0** | §4.2.2.1 Maximum investment: strong leadership + business urgency |
-| **P1** | §4.2.2.2 Solid candidate: resource-conditional evolution |
-| **P2** | §4.2.2.3 Community-maintained: no active NI resource allocation |
+> 🔍 *Each score informs program-level decisions but does not guarantee launch. Scores help NI focus its attention where impact is highest.*
 
 ---
 
-## §5.0 Acceptable Ways to Increase Priority
+## §3. What Drives a High Score?
 
-### §5.1 Gating Methods
+### §3.1 Practicality Signals
+No private IP. Public test harness exists. Docs are sufficient for onboarding.
 
-#### §5.1.1 Recruit public SteerCo leadership  
-#### §5.1.2 Demonstrate practical readiness (e.g., passing tests, release candidate)  
-#### §5.1.3 Show growing community interest (PRs, issue activity)  
-#### §5.1.4 Provide product demand input via Product Management
+### §3.2 Market Breadth Signals
+Many customer types can use it (e.g., Modbus, gRPC). Not tied to a single vertical.
 
----
+### §3.3 Value Signals
+Directly tied to improving time-to-deploy, cross-platform support, or onboarding.
 
-## §6.0 Out-of-Scope
-
-### §6.1 Clarified Boundaries
-
-#### §6.1.1 Does not assign project ownership  
-#### §6.1.2 Does not define contributor roles (see `STEERCO-GUIDELINES.md`)  
-#### §6.1.3 Does not imply launch — priority ≠ release
+### §3.4 Interest Signals
+Active GitHub issues. External contributors proposing PRs. Multiple volunteers in SteerCo.
 
 ---
 
-## §7.0 Revision History
+## §4. Who Sets the Score?
 
-| §7.1 Date | §7.2 Summary |
-|-----------|--------------|
-| §7.1.1 2025-05-22 | §7.2.1 Added 4-factor scoring model and ownership |
-| §7.1.2 2025-04-XX | §7.2.2 Initial version |
+Scoring is **not a vote** and **not fixed numerically**. Instead, the score is determined by:
+
+- **Input from domain owners** (R&D, PM, Community)
+- **Observed metrics and volunteer leadership**
+- **Program Manager discretion**, based on alignment with program goals
+
+The result is a **tiered priority class**:
+
+- **P0:** Maximum investment focus. Must have strong leadership, immediate business impact, and high community support.
+- **P1:** Solid candidate. Resources may be allocated when available. Continues to evolve.
+- **P2:** Low/no resource commitment from NI. May be community-supported but does not meet current thresholds.
+
+---
+
+## §5. What Increases Priority?
+
+> ✅ These are **the only accepted ways** to raise a repo’s priority:
+
+### §5.1 SteerCo Recruitment
+Recruiting SteerCo leadership (must be public, tracked)
+
+### §5.2 Practical Readiness
+Demonstrating practical readiness (test pass, release candidate)
+
+### §5.3 Community Growth
+Growing community interest (merged PRs, GitHub discussion activity)
+
+### §5.4 Business Impact
+Showing business impact via PM input (customer pull, support demand)
+
+---
+
+## §6. What This Document Does Not Cover
+
+- This document does **not** assign project ownership.
+- It does **not** define contributor roles (see [STEERCO-GUIDELINES.md](https://github.com/ni/open-source/blob/main/docs/governance/STEERCO-GUIDELINES.md)).
+- It does **not** mandate release—priority ≠ launch. Launch decisions occur after full evaluation and community readiness.
+
+---
+
+## §7. Revision History
+
+| Date       | Summary                         |
+|------------|----------------------------------|
+| 2025-05-31 | Numbered table rows and scoring triggers for GPT traceability |
+| 2025-05-22 | Added 4-factor scoring model and role ownership |
+| 2025-04-XX | Initial version |
