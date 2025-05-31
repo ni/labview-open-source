@@ -5,64 +5,70 @@
 
 ---
 
-## 📅 2025-05-31 – Discord Access Policy Added
-
-- Updated `ENGAGEMENT-GUIDE.md`
-  - Added §2.1 to define public vs. private Discord channels
-  - Documented access roles and moderation by Program Manager
-  - Reaffirmed requirement to document governance decisions publicly
-
----
-
-## 📅 2025-05-31 – Naming and Brand Usage Policy Added
-
-**File Updated:** `PROGRAM-GUIDE.md`
-
-- Added §4.3 “Naming and Brand Reference Guidelines”
-- Clarifies when community contributors may use “LabVIEW” or “TestStand” in package names
-- Establishes permissive default with attribution safeguard
-
-**Method:**  
-Prompted by real contributor inquiry (Juan Jose Hasbun Wood)
-
-**Drift Resolution:**  
-Confirmed as aligned with internal source-of-truth after sync recheck
-
----
-
-## 📅 2025-05-31 – Contribution Format Alignment
-
-**File Updated:** `CONTRIBUTING.md`
-
-- Applied `§X.Y.Z` numeric identifiers to all content blocks
-- No policy changes — aligned format with internal governance structure
-
-**Method:**  
-Manual commit to GitHub from structured internal version
-
-**Drift Resolution:**  
-Confirmed as fully aligned post-sync
-
----
-
 ## 📅 2025-05-22 – Governance Framework Refresh
 
-- Introduced `PRIORITY-SCORE.md`, `STEERCO-GUIDELINES.md`, `CONTRIBUTOR-RECOGNITION.md`, `ENGAGEMENT-GUIDE.md`, `MEETING-POLICY.md`
-- Updated `PROGRAM-GUIDE.md` to include CLA vs. DCO licensing logic
+A comprehensive update across the program’s governance documentation, based on the 2025-05-22 Steering Committee and stakeholder analysis.
+
+### 🔧 New Files Introduced
+
+#### §2025.05.22.1 `PRIORITY-SCORE.md`
+- Defined four-factor scoring model: Practicality, Market Breadth, Value, Interest
+- Assigned scoring ownership to R&D, Product Management, and Community
+- Formalized SteerCo headcount as a gating requirement for repo prioritization
+
+#### §2025.05.22.2 `STEERCO-GUIDELINES.md`
+- Clarified that SteerCo increases eligibility but does not set roadmap or launch decisions
+- Defined participation model (2 hours/week, GitHub-visible)
+- Added meeting structure policy (governance vs. repo-level separation)
+
+#### §2025.05.22.3 `CONTRIBUTOR-RECOGNITION.md`
+- Established badge system (e.g., Maintainer, SteerCo Member, Top Contributor)
+- Linked badge issuance to GitHub-visible behavior and certification eligibility
+
+#### §2025.05.22.4 `ENGAGEMENT-GUIDE.md`
+- Defined contributor behavior expectations for GitHub Issues, Discussions, PRs
+- Introduced manual test reporting protocol
+- Aligned GitHub activity with recognition and priority scoring
+
+#### §2025.05.22.5 `MEETING-POLICY.md`
+- Formalized meeting cadence (alternating governance/repo)
+- Required 24-hour agenda notice
+- Required documentation of all key outcomes
+
+### ✍️ Updates to Existing Files
+
+- `PROGRAM-GUIDE.md`  
+  - Added CLA vs. DCO logic for contribution licensing  
+  - Clarified when each model applies (core vs. add-on IP)
 
 ---
 
 ## 🧭 Change Management Philosophy
 
 This changelog is maintained to:
+
 - Document community-influenced policy evolution
 - Reinforce transparency and alignment with stakeholder input
 - Prevent untraceable governance drift
 
 Future changes must be:
+
 - Approved via the Program Manager
 - Grounded in observable contributor or operational needs
 - Documented with rationale and contributor visibility
+
+---
+
+## 📌 Pending Areas for Future Revision
+
+### §Pending.1 Metadata Automation
+- Automation of badge and scoring metadata
+
+### §Pending.2 Certification Integration
+- Certification dashboard integration
+
+### §Pending.3 GitHub Actions
+- GitHub Actions for contribution tracking
 
 ---
 
