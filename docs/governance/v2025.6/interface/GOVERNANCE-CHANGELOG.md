@@ -5,8 +5,6 @@
 
 ## 📅 2025-05-31 – Role Scope Clarification and Structural Realignment
 
-This update consolidates authority definitions, clarifies scoring and badge logic, and ensures meeting structure is centralized under SteerCo governance.
-
 ### 🧭 Role Clarifications
 
 #### §2025.05.31.1 Program Manager Scope
@@ -45,6 +43,14 @@ This update consolidates authority definitions, clarifies scoring and badge logi
 - Added §5.3 defining discretionary and consensus-based SteerCo selection
 - Documented public entry point via LinkedIn post
 
+### 🧮 Scoring Formula Alignment
+
+#### §2025.05.31.7 `PRIORITY-SCORE.md`
+- Added new section §2.5 to define official scoring formula:
+  - **T-Shirt Size (complexity) + Priority Label (impact)**
+- Included points tables for both fields and sample combinations
+- Clarified that these values are used in the recertification automation pipeline and contributor scoreboards
+
 ---
 
 ## 📅 2025-05-22 – Governance Framework Refresh
@@ -76,12 +82,6 @@ A comprehensive update across the program’s governance documentation, based on
 - Formalized meeting cadence (alternating governance/repo)
 - Required 24-hour agenda notice
 - Required documentation of all key outcomes
-
-### ✍️ Updates to Existing Files
-
-- `PROGRAM-GUIDE.md`  
-  - Added CLA vs. DCO logic for contribution licensing  
-  - Clarified when each model applies (core vs. add-on IP)
 
 ---
 
