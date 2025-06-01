@@ -32,15 +32,42 @@ Product Management assigns priority levels based on four independent factors:
 
 ---
 
+## §2.5 Scoring Formula
+
+Certification points awarded for a merged GitHub PR are calculated by combining:
+
+- **T-Shirt Size (Complexity):** Indicates the base effort level.
+- **Priority Label (Impact):** Adds a bonus multiplier based on strategic value.
+
+| T-Shirt Size | Description                  | Points |
+|--------------|------------------------------|--------|
+| XS           | Minor fix                    | 1      |
+| S            | Moderate change              | 2      |
+| M            | Significant new feature      | 5      |
+| L            | Major architecture work      | 10     |
+| XL           | Complex system refactor      | 15     |
+
+| Priority | Label | Bonus Points |
+|----------|-------|--------------|
+| Low      | P2    | +0           |
+| Medium   | P1    | +5           |
+| High     | P0    | +15          |
+
+> 🧮 **Final Score = T-Shirt Size Points + Priority Bonus**
+
+These values are used in real-time contributor scoreboards and sent automatically to the Certification Team after each merge.
+
+---
+
 ## §3. Priority Class Definitions
 
-Each GitHub issue or milestone may be tagged with one of the following labels:
+Each GitHub issue or milestone may be tagged with one of the following labels. These affect the **bonus points** awarded on top of the T-Shirt Size baseline:
 
-| Tier | Label | Meaning |
-|------|-------|---------|
-| §3.1 | **P0** | Highest strategic alignment; issue yields max contribution points |
-| §3.2 | **P1** | Strong candidate for recognition; moderate multiplier |
-| §3.3 | **P2** | Low-weight issue; contributions still welcome, but not prioritized for NI visibility |
+| Tier | Label | Bonus Points | Meaning |
+|------|-------|--------------|---------|
+| §3.1 | **P0** | +15         | Highest strategic alignment |
+| §3.2 | **P1** | +5          | Strong candidate for recognition |
+| §3.3 | **P2** | +0          | Contributions welcome, but low visibility |
 
 These labels may affect how many recertification points are awarded or how visibility is assigned during program analysis.
 
@@ -88,5 +115,6 @@ Direct link to customer pull, partner demand, or roadmap acceleration
 |------------|---------------------------------------------------|
 | 2025-05-31 | Clarified that Product Management owns priority labels |
 | 2025-05-31 | Defined P0/P1/P2 as issue-level contribution weights |
+| 2025-05-31 | **Added §2.5: Scoring Formula using T-Shirt Size + Priority Bonus** |
 | 2025-05-22 | Added 4-factor model and owner breakdown |
 | 2025-04-XX | Initial version |
