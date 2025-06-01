@@ -2,7 +2,10 @@
 
 ## §1.0 Purpose
 
-This document defines the meeting philosophy for NI’s open-source program. It reinforces a contributor-first approach, in which steering committee members are empowered to focus their time on technical leadership, not unnecessary calls.
+This document defines the **program-wide meeting philosophy** for NI’s Open-Source Program.  
+It reinforces an async-first approach in which technical contributions are prioritized over synchronous coordination.
+
+> 🛑 All structured meetings are limited to **Steering Committee participants** and are defined in [`STEERCO-GUIDELINES.md §4`](./STEERCO-GUIDELINES.md#§4-meeting-policy).
 
 ---
 
@@ -11,31 +14,34 @@ This document defines the meeting philosophy for NI’s open-source program. It 
 ### §2.1 Opt-In Governance
 
 #### §2.1.1 Attention-Based Participation
-NI believes that the best governance emerges from active technical leadership, not imposed schedules. All SteerCo members operate on an attention-based quota rather than a time-based requirement. Participation is encouraged to occur where technical discussion happens—primarily GitHub.
+The best governance emerges from active technical leadership, not imposed schedules. All contributors, including NI participants, operate on an attention-based quota. Participation is encouraged to occur where technical discussion happens—primarily GitHub.
 
 ---
 
 ### §2.2 Zero-Meeting Baseline
 
 #### §2.2.1 Asynchronous Assumption
-The program operates under a zero-standing-meeting assumption. NI will not create recurring meetings unless a clear need is identified and agreed upon by participants. This ensures that time is protected for direct technical contributions.
+The NI Open-Source Program operates under a zero-standing-meeting assumption for all contributors outside of SteerCo. NI will not create recurring contributor-wide meetings unless a clear need is identified and agreed upon publicly. Time is protected for direct technical contributions.
 
 ---
 
-### §2.3 SteerCo Meeting Autonomy
+### §2.3 Pull-Based Engagement
 
-#### §2.3.1 Pull-Based Scheduling
-NI will not initiate or schedule regular meetings with individual Steering Committees unless explicitly requested by the committee members. This ensures SteerCo time is respected and aligns with our principle of attention-based participation. SteerCo members may convene independently or with NI when needed, but engagement is intentionally pull-based, not push-based.
-
----
-
-### §2.4 Focused Discussions
-
-#### §2.4.1 Scoped, Publishable Engagement
-Meetings, when requested, should be scoped narrowly and centered around advancing a specific technical or governance goal. Meeting notes should be published in a public repository or summarized in GitHub issues when possible.
+#### §2.3.1 No Push Scheduling
+NI will not initiate recurring meetings with contributors unless explicitly requested by governance participants. Engagement is intentionally pull-based, not push-based.
 
 ---
 
-## §3.0 Exceptions
+## §3.0 Structured Meetings
 
-Exceptions to this policy—such as broad governance summits or stakeholder syncs—must be justified based on cross-cutting program needs, and still default to transparency and asynchronous coordination.
+All formal meeting structures (cadence, scope, note-taking) are defined in [`STEERCO-GUIDELINES.md`](./STEERCO-GUIDELINES.md).  
+This file only establishes the async-first baseline for the broader program.
+
+---
+
+## §4.0 Revision History
+
+| Date       | Summary                                  |
+|------------|------------------------------------------|
+| 2025-05-31 | Reduced scope to async-first baseline; moved structured logic to `STEERCO-GUIDELINES.md` |
+| 2025-05-22 | Initial version defining SteerCo autonomy and async preference |
