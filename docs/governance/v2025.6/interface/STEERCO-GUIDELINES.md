@@ -1,0 +1,106 @@
+> 🧭 This document outlines the roles, responsibilities, and expectations of members serving on a Steering Committee (SteerCo) within the NI Open-Source Program.
+
+---
+
+## §1. Role of the Steering Committee
+
+SteerCo members:
+
+### §1.1 Public Representation
+Represent real-world usage, integration, and testing of NI open-source IP
+
+### §1.2 Roadmap Guidance
+Offer guidance on roadmap feasibility, documentation gaps, and community needs
+
+### §1.3 Public Recognition
+Are recognized publicly for their participation
+
+> ❗ **SteerCo members do not vote on whether a repository is prioritized or launched.**  
+> Their presence and engagement increase eligibility by signaling strong leadership availability, as defined in [`PRIORITY-SCORE.md`](https://github.com/ni/open-source/blob/main/docs/governance/PRIORITY-SCORE.md).
+
+---
+
+## §2. SteerCo Authority and Boundaries
+
+SteerCo members are *influencers, not approvers*.
+
+| §Ref | Area | SteerCo Role |
+|------|------|---------------|
+| §2.1 | 🧪 Technical Guidance | Review PRs, define usage patterns, surface bugs |
+| §2.2 | 🧭 Evaluation Input | Assess interest and practicality (not final scoring) |
+| §2.3 | 🔀 Community Engagement | Encourage external contributions and recognition |
+| §2.4 | ❌ Governance Decisions | Cannot override program-level policies or make launch determinations |
+| §2.5 | ❌ Priority Setting | Do not assign P0/P1/P2 directly; instead, increase repo readiness by being present and engaged |
+
+---
+
+## §3. Participation Expectations
+
+| §Ref | Commitment | Details |
+|------|------------|---------|
+| §3.1 | Weekly Time | ~2 hours/week per repo or category |
+| §3.2 | Activity | GitHub reviews, issues, discussion replies, test coordination |
+| §3.3 | Collaboration | Coordinate with other members, propose improvements |
+| §3.4 | Independence | Members contribute as individuals—not company representatives |
+| §3.5 | Transparency | All decisions and leadership must be visible and trackable on GitHub |
+
+---
+
+## §4. Meeting Policy
+
+SteerCo meetings are the only structured meetings held within the NI Open-Source Program.
+
+| §Ref | Policy | Description |
+|------|--------|-------------|
+| §4.1 | 🔄 Cadence | Governance meetings alternate biweekly with IP-specific meetings |
+| §4.2 | 📝 Agendas | Agendas must be published 24 hours in advance and clearly scoped |
+| §4.3 | ✂️ Separation | IP-focused meetings are scoped to a single repo or technical cluster; governance meetings address scoring, process, and program design |
+| §4.4 | 📎 Recording | Key decisions must be documented in public GitHub threads or governance commits |
+
+### §4.5 Meeting Documentation Protocol
+- Any participant may post a GitHub summary, issue comment, or commit documenting key meeting outcomes.
+- The Program Manager is the default meeting facilitator unless otherwise delegated.
+- All meetings are assumed to involve SteerCo members only. No other standing meetings exist in this program.
+
+---
+
+## §5. Joining or Leaving a SteerCo
+
+To join a SteerCo:
+
+- Express interest via the [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7328255573638950923/)
+- Be selected based on discretion and consensus from the Open Source Core Team (pending formalization)
+- Commit to a 2-hour/week engagement model
+
+To step down:
+
+- Notify the Program Manager via GitHub or Discord
+- Removal is non-punitive—members may return when ready
+
+### §5.3 Selection Process
+SteerCo selection is fully discretionary and driven by consensus among the emerging Open Source Core Team. There are no point thresholds or activity quotas. Selection may consider prior contributions, technical alignment, or other contextual factors, and is initiated through the public LinkedIn post.
+
+---
+
+## §6. Recognition and Impact
+
+### §6.1 Contributor Recognition
+Confers public recognition (badges and contributor credits are planned—see `CONTRIBUTOR-RECOGNITION.md`)
+
+### §6.2 Priority Signal
+Is a core signal of priority eligibility for the NI Open-Source Program
+
+### §6.3 Product Influence
+Can influence NI product decisions—but only through structured and transparent engagement
+
+---
+
+## §7. Revision History
+
+| Date       | Summary                                      |
+|------------|----------------------------------------------|
+| 2025-05-31 | Numbered all lists, table rows, and impact statements |
+| 2025-05-31 | Designated SteerCo as exclusive structured meeting body |
+| 2025-05-31 | Defined meeting documentation protocol and selection model |
+| 2025-05-22 | Added meeting structure, clarified role boundaries |
+| 2025-04-XX | Initial version                              |

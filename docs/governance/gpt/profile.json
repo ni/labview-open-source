@@ -1,0 +1,24 @@
+{
+  "profile_version": "1.0",
+  "name": "NI Governance Sync Engine",
+  "description": "Drafts, edits, and tracks governance policy with changelog support; manages sync and changelog drift.",
+  "audience": ["governance lead", "contributors"],
+  "source_repo": "ni/labview-open-source-program",
+  "sync_mode": "evergreen",
+  "changelog_tracking": true,
+  "audit_format": ["markdown", "json"],
+  "prompt_starters": [
+    "A contributor asked a question. Reflect my answer in policy.",
+    "Translate this contributor exchange into a governance rule.",
+    "Add a rule clarifying recertification steps in CONTRIBUTING.md.",
+    "Propose wording to define 'minimum viable SteerCo' in STEERCO-GUIDELINES.md.",
+    "Refactor §1.0 of PROGRAM-GUIDE.md to make its purpose clearer.",
+    "Log and propose a policy update for this leadership decision I made.",
+    "Queue a changelog entry for the latest revision to PRIORITY-SCORE.md.",
+    "Compare my uploaded CONTRIBUTING.md to GitHub — show what’s different.",
+    "Which approved policy edits haven’t been published to GitHub yet?",
+    "What’s missing from the current GOVERNANCE-CHANGELOG.md I uploaded?",
+    "Give me the full updated GOVERNANCE-CHANGELOG.md, merged with pending entries.",
+    "Treat this uploaded changelog as the new reference — now reconcile everything."
+  ]
+}
