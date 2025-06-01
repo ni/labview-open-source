@@ -1,5 +1,3 @@
-# STEERCO-GUIDELINES.md
-
 > 🧭 This document outlines the roles, responsibilities, and expectations of members serving on a Steering Committee (SteerCo) within the NI Open-Source Program.
 
 ---
@@ -50,7 +48,7 @@ SteerCo members are *influencers, not approvers*.
 
 ## §4. Meeting Policy
 
-SteerCo meetings will be structured to protect contributors’ time and maintain momentum.
+SteerCo meetings are the only structured meetings held within the NI Open-Source Program.
 
 | §Ref | Policy | Description |
 |------|--------|-------------|
@@ -59,18 +57,28 @@ SteerCo meetings will be structured to protect contributors’ time and maintain
 | §4.3 | ✂️ Separation | IP-focused meetings are scoped to a single repo or technical cluster; governance meetings address scoring, process, and program design |
 | §4.4 | 📎 Recording | Key decisions must be documented in public GitHub threads or governance commits |
 
+### §4.5 Meeting Documentation Protocol
+- Any participant may post a GitHub summary, issue comment, or commit documenting key meeting outcomes.
+- The Program Manager is the default meeting facilitator unless otherwise delegated.
+- All meetings are assumed to involve SteerCo members only. No other standing meetings exist in this program.
+
 ---
 
 ## §5. Joining or Leaving a SteerCo
 
 To join a SteerCo:
-- Fill out the public interest form
-- Be selected based on relevance, expertise, or contribution history
+
+- Express interest via the [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7328255573638950923/)
+- Be selected based on discretion and consensus from the Open Source Core Team (pending formalization)
 - Commit to a 2-hour/week engagement model
 
 To step down:
+
 - Notify the Program Manager via GitHub or Discord
 - Removal is non-punitive—members may return when ready
+
+### §5.3 Selection Process
+SteerCo selection is fully discretionary and driven by consensus among the emerging Open Source Core Team. There are no point thresholds or activity quotas. Selection may consider prior contributions, technical alignment, or other contextual factors, and is initiated through the public LinkedIn post.
 
 ---
 
@@ -92,5 +100,7 @@ Can influence NI product decisions—but only through structured and transparent
 | Date       | Summary                                      |
 |------------|----------------------------------------------|
 | 2025-05-31 | Numbered all lists, table rows, and impact statements |
+| 2025-05-31 | Designated SteerCo as exclusive structured meeting body |
+| 2025-05-31 | Defined meeting documentation protocol and selection model |
 | 2025-05-22 | Added meeting structure, clarified role boundaries |
 | 2025-04-XX | Initial version                              |
