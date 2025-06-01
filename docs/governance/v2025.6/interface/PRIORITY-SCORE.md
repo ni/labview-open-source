@@ -1,109 +1,92 @@
-# PRIORITY-SCORE.md
-
-> 🛑 **This document defines how NI evaluates and allocates limited R&D effort across eligible open-source repositories.**  
-> It is intended for use by NI leadership, the Program Manager, and Steering Committee members to ensure transparency, fairness, and community influence in decision-making.
+> 🛑 **This document defines how NI evaluates and weights contribution value for open-source repositories governed by the program.**  
+> It is used by Product Management, NI leadership, and Steering Committees to ensure transparent prioritization and contributor recognition.
 
 ---
 
 ## §1. What “Priority” Means
 
-Priority in the NI Open-Source Program reflects **how much structured effort NI commits** to an open-source repository in a given evaluation cycle.  
-It is **not a vote**, nor is it set by an individual—it is the result of:
+Priority in the NI Open-Source Program reflects **how much contribution credit a given GitHub issue or task receives**, based on strategic alignment, impact, and resource demand.
 
-### §1.1 Community Interest
-Measurable community interest
+It is:
 
-### §1.2 Technical Leadership
-Available technical leadership (SteerCo)
+- A **label applied to GitHub issues**, not entire repositories
+- Determined by **Product Management**
+- Used to **increase contribution point values** (e.g., for recertification, recognition)
 
-### §1.3 Resource Alignment
-Internal resource alignment
+It is **not a vote**, and does not guarantee NI resourcing or roadmap placement.
 
-### §1.4 Objective Scoring
-Objective scoring across defined criteria
-
-> ❗ **Note:** A repository cannot be prioritized until a Steering Committee is formed. SteerCo headcount is the gating requirement for priority evaluation.
+> ❗ **Note:** P0/P1/P2 labels affect contributor scoring, not launch or funding. They are not assigned by the Program Manager.
 
 ---
 
 ## §2. Scoring Model Overview
 
-The program uses a **4-factor scoring model** to evaluate whether an open-source repo is a good candidate for investment.  
-Each factor is assessed independently, then considered together by the Program Manager and NI leadership.
+Product Management assigns priority levels based on four independent factors:
 
 | §Ref | Criterion        | Owner(s)             | Description |
 |------|------------------|----------------------|-------------|
-| §2.1 | **Practicality** | NI R&D               | Technical readiness of the codebase. Includes licensing, internal dependencies, documentation, and testability without NI-internal tools. |
-| §2.2 | **Market Breadth** | Product Management | Breadth of applicability across NI’s audience. Considers whether the repo serves a general or niche use case. |
-| §2.3 | **Value**        | Product Management (with user input) | Strategic importance to NI and its users. Informed by customer needs, partner input, and internal roadmap alignment. |
-| §2.4 | **Interest**     | Community (required) | Number and quality of contributors expressing leadership interest. Measured through GitHub activity and SteerCo formation. |
-
-> 🔍 *Each score informs program-level decisions but does not guarantee launch. Scores help NI focus its attention where impact is highest.*
+| §2.1 | **Practicality** | NI R&D               | Technical readiness of the codebase. Includes licensing, testability, and independence from NI-only systems. |
+| §2.2 | **Market Breadth** | Product Management | Breadth of applicability across customer segments |
+| §2.3 | **Value**        | Product Management (with user input) | Strategic relevance to NI roadmap or customer needs |
+| §2.4 | **Interest**     | Community            | Quality and consistency of external contributor participation (esp. SteerCo presence) |
 
 ---
 
-## §3. What Drives a High Score?
+## §3. Priority Class Definitions
 
-### §3.1 Practicality Signals
-No private IP. Public test harness exists. Docs are sufficient for onboarding.
+Each GitHub issue or milestone may be tagged with one of the following labels:
 
-### §3.2 Market Breadth Signals
-Many customer types can use it (e.g., Modbus, gRPC). Not tied to a single vertical.
+| Tier | Label | Meaning |
+|------|-------|---------|
+| §3.1 | **P0** | Highest strategic alignment; issue yields max contribution points |
+| §3.2 | **P1** | Strong candidate for recognition; moderate multiplier |
+| §3.3 | **P2** | Low-weight issue; contributions still welcome, but not prioritized for NI visibility |
 
-### §3.3 Value Signals
-Directly tied to improving time-to-deploy, cross-platform support, or onboarding.
-
-### §3.4 Interest Signals
-Active GitHub issues. External contributors proposing PRs. Multiple volunteers in SteerCo.
+These labels may affect how many recertification points are awarded or how visibility is assigned during program analysis.
 
 ---
 
-## §4. Who Sets the Score?
+## §4. Who Assigns Priority?
 
-Scoring is **not a vote** and **not fixed numerically**. Instead, the score is determined by:
-
-- **Input from domain owners** (R&D, PM, Community)
-- **Observed metrics and volunteer leadership**
-- **Program Manager discretion**, based on alignment with program goals
-
-The result is a **tiered priority class**:
-
-- **P0:** Maximum investment focus. Must have strong leadership, immediate business impact, and high community support.
-- **P1:** Solid candidate. Resources may be allocated when available. Continues to evolve.
-- **P2:** Low/no resource commitment from NI. May be community-supported but does not meet current thresholds.
+| Role | Responsibility |
+|------|----------------|
+| Product Management | Assigns all P0/P1/P2 labels to GitHub issues |
+| Program Manager | May highlight readiness signals but does **not assign labels** |
+| SteerCo | May advocate for increased readiness via engagement, but does not influence scoring directly |
 
 ---
 
 ## §5. What Increases Priority?
 
-> ✅ These are **the only accepted ways** to raise a repo’s priority:
+Product Management may assign higher priority when the following signals are present:
 
-### §5.1 SteerCo Recruitment
-Recruiting SteerCo leadership (must be public, tracked)
+### §5.1 SteerCo Participation
+Issue is owned, discussed, or reviewed by an active SteerCo
 
 ### §5.2 Practical Readiness
-Demonstrating practical readiness (test pass, release candidate)
+Code or contribution is testable, scoped, and merge-ready
 
-### §5.3 Community Growth
-Growing community interest (merged PRs, GitHub discussion activity)
+### §5.3 Community Activity
+Issue includes merged external PRs, active contributors, or interest discussions
 
 ### §5.4 Business Impact
-Showing business impact via PM input (customer pull, support demand)
+Direct link to customer pull, partner demand, or roadmap acceleration
 
 ---
 
 ## §6. What This Document Does Not Cover
 
-- This document does **not** assign project ownership.
-- It does **not** define contributor roles (see [STEERCO-GUIDELINES.md](https://github.com/ni/open-source/blob/main/docs/governance/STEERCO-GUIDELINES.md)).
-- It does **not** mandate release—priority ≠ launch. Launch decisions occur after full evaluation and community readiness.
+- It does **not** assign project ownership
+- It does **not** define contributor roles (see [`STEERCO-GUIDELINES.md`](./STEERCO-GUIDELINES.md))
+- It does **not** guarantee resource allocation — P0 ≠ resourcing commitment
 
 ---
 
 ## §7. Revision History
 
-| Date       | Summary                         |
-|------------|----------------------------------|
-| 2025-05-31 | Numbered table rows and scoring triggers for GPT traceability |
-| 2025-05-22 | Added 4-factor scoring model and role ownership |
+| Date       | Summary                                           |
+|------------|---------------------------------------------------|
+| 2025-05-31 | Clarified that Product Management owns priority labels |
+| 2025-05-31 | Defined P0/P1/P2 as issue-level contribution weights |
+| 2025-05-22 | Added 4-factor model and owner breakdown |
 | 2025-04-XX | Initial version |
