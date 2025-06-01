@@ -1,42 +1,49 @@
-# GOVERNANCE-CHANGELOG.md
-
 > 📜 This changelog tracks updates to the governance structure of the NI Open-Source Program.  
 > Each entry includes the date, a summary of changes, and rationale where applicable.
 
 ---
 
-## 📅 2025-05-31 – Role Model Formalization and `ROLES.md` Introduction
+## 📅 2025-05-31 – Role Scope Clarification and Structural Realignment
 
-### 🆕 New Governance Asset
+This update consolidates authority definitions, clarifies scoring and badge logic, and ensures meeting structure is centralized under SteerCo governance.
 
-#### §2025.05.31.1 `ROLES.md`
-- Created `ROLES.md` to define all NI-owned (non-volunteer) roles in the NI Open-Source Program
-- Introduced five formal NI-only roles:
-  - §2.1 Program Architect
-  - §2.2 Program Manager (expanded)
-  - §2.3 Scoring Coordinator
-  - §2.4 Developer Relations Lead
-  - §2.5 Infra & Automation Owner
+### 🧭 Role Clarifications
 
-### 🔁 Structural Clarifications
+#### §2025.05.31.1 Program Manager Scope
+- Defined Program Manager as the central role owning NI governance logic
+- Declared no fallback or delegation currently in place
+- Added canonical description to `STEERCO-GUIDELINES.md` and linked files
 
-#### §2025.05.31.2 Program Manager Role Update
-- Added §2.2.2: Explicit cross-functional scope (executives, R&D, PM, Legal)
-- Added §2.2.3: Education Services integration and contributor certification infrastructure oversight
-- Added §2.2.4: Delegation logic for temporarily held roles and GPT enforcement authority
+### 🏅 Contributor Recognition
 
-### 🔧 Clarified Infra Ownership
+#### §2025.05.31.2 `CONTRIBUTOR-RECOGNITION.md`
+- Removed badges: 🧱 Infra Builder, 🎓 Certified Contributor
+- Declared 💬 Top Contributor as auto-inferred from GitHub
+- Stated that badge decisions are final; no dispute path exists
 
-#### §2025.05.31.3 NI Maintainer Role (Internal)
-- Added §2.5.2 to `ROLES.md` to formalize the NI Maintainer as part of Infra & Automation
-- Clarified that this role is held by the Program Manager and includes:
-  - Merge policy enforcement
-  - Repo settings and branch protection
-  - Manual governance file merges
+### 🛠 Scoring and Priority Clarification
 
-### 🧩 Role Assignment Default
-- Documented that all NI roles default to the Program Manager unless delegated
-- Acknowledged current holding of all five roles by Sergio Velderrain pending future delegation
+#### §2025.05.31.3 `PRIORITY-SCORE.md`
+- Clarified that Product Management owns all P0/P1/P2 labels
+- Defined those labels as contribution weighting, not roadmap gating
+- Removed Program Manager from scoring authority
+
+### 🔄 Meeting Policy Consolidation
+
+#### §2025.05.31.4 `STEERCO-GUIDELINES.md`
+- Declared SteerCo as the only structured meeting group
+- Moved all cadence and note-taking logic here
+- Added `§4.5 Meeting Documentation Protocol`
+
+#### §2025.05.31.5 `MEETING-POLICY.md`
+- Reduced scope to async-only governance principle
+- Redirected structured meeting logic to `STEERCO-GUIDELINES.md`
+
+### 🧭 Onboarding Process
+
+#### §2025.05.31.6 `STEERCO-GUIDELINES.md`
+- Added §5.3 defining discretionary and consensus-based SteerCo selection
+- Documented public entry point via LinkedIn post
 
 ---
 
